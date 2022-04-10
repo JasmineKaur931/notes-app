@@ -1,0 +1,93 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+  *,
+  *:after,
+  *:before {
+    --webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :active,
+  :hover,
+  :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+  a,
+  a:hover {
+    text-decoration: none;
+  }
+  /*********Navbar************/
+  .navbar {
+    background-color:#756477;
+    /* border-bottom: 3px solid #4dabab; */
+  }
+  .nav-link {
+    color: #F6EEE8;
+  }
+  .nav-link:hover {
+    color: #EDA7A7;
+  }
+  .navbar-brand img {
+    height: 50px;
+  }
+  .navbar-toggler {
+    width: 15%;
+  }
+  .navbar-toggler img {
+    padding: 0%;
+    height: 60%;
+    width: 80%;
+    border: none;
+  }
+  /*******home********/
+  .home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../img/background1.jpg);
+    background-size: cover;
+    display: grid;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    /* background-size: cover;
+    display: grid;
+    place-items: center;*/
+  }
+  
+.tag {
+    padding-top: 10%;
+    box-sizing: border-box;
+    padding-left: 12%;
+  }
+  .tag h1{
+    font-size: 8vh;
+    color: #EDA7A7;
+    font-weight: 600;
+  }
+  .tag h3 {
+    font-size: 5vh;
+    color: #EDA7A7;
+    font-weight: 600;
+  }
+  .button {
+      background-color: #EDA7A7;
+  }
+
+  /****Signup****/
+  .error {
+    color: red;
+  }
+
+  .text
+  {
+    overflow-y: scroll;
+    height: 200px;
+  }
+
+  .forms
+  {
+    border: 2px solid #EDA7A7;
+    background-color:#EDA7A7;
+  }
